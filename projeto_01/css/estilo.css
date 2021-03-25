@@ -1,3 +1,4 @@
+@import url(./config.css);
 *{
     margin: 0%;
     padding: 0%;
@@ -8,6 +9,52 @@ html,body{
     height: 100%;
     font-family: 'Montserrat', sans-serif;
 }
+
+.container{
+    max-width: 1400px; /*vai ser mudado quando for responsivo */
+    width: 100%;
+    margin: 0 auto;
+}
+
+.clear{
+    clear:both;
+}
+
+header{
+    padding: 20px 2%;
+}
+
+header .container .logo >img{
+    float: left;
+    width: 200px;
+}
+
+header .container >nav{
+    float:right;
+}
+
+header nav ul{
+    list-style-type:none;
+}
+
+header nav ul li{
+    float:left;
+    font-size: 16px;
+    padding: 0 20px;
+    text-transform: uppercase;
+}
+
+header ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--primary);
+}
+
+
+
+
+
+
 
 
 
