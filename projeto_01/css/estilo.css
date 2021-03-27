@@ -50,6 +50,11 @@ header ul li a{
     color: var(--primary);
 }
 
+header ul li a:hover{
+    border-bottom: 4px solid var(--secundary);
+    color: var(--secundary);
+}
+
 
 
 
