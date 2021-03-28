@@ -1,46 +1,83 @@
-
-.container{
-    max-width: 1200px; /*vai ser mudado quando for responsivo */
-    width: 100%;
-    margin: 0 auto;
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family:'Montserrat', sans-serif;
 }
 
 .clear{
-    clear:both;
+	clear: both;
 }
+
+.container{
+	max-width: 1400px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+html,body{
+	height: 100%;
+}
+
+/**Header do site**/
 
 header{
-    padding: 20px 2%;
+	padding:20px 4%;
 }
 
-
-/*aplicando o float no header */
-
-header .container .logo >img{
-    float: left;
-    width: 200px;
+header .logo img{
+	float: left;
+	width: 200px;
 }
 
-nav .menu-desktop{
-    float:right;
+nav.menu-mobile{
+	float: right;
+	width: 28px;
+	height: 28px;
+	margin-top:7px;
+	cursor: pointer;
+	background-image: url('../imagens/menu-mobile.png');
+	background-size:100% 100%;
+	display: none;
 }
 
-
-header nav ul{
-    padding: 8px 0;
-    list-style-type:none;
+nav.menu-mobile ul{
+	z-index: 999;
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 100px;
+	background-color: white;
 }
 
-header nav ul li{
-    float:left;
+nav.menu-mobile ul li{
+	text-transform: uppercase;
+	padding:10px 0;
+}
+
+header nav.menu-desktop{
+	float: right;
+}
+
+header nav.menu-desktop ul{
+	padding:8px 0;
+	list-style-type: none;
+}
+
+header nav.menu-desktop ul li{
+	float: left;
+	padding:0 20px;
+	text-transform: uppercase;
+}
+
+header ul li{
     font-size: 16px;
-    padding: 0 20px;
-    text-transform: uppercase;
+    font-weight: bold;
 }
 
 header ul li a{
     text-decoration: none;
-    font-weight: bold;
     color: var(--primary);
 }
 
@@ -49,11 +86,4 @@ header ul li a:hover{
     color: var(--secundary);
 }
 
-
-
-
-
-
-
-
-
+/*****/

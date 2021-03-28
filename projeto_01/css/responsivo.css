@@ -2,3 +2,19 @@
 
 /*Estilo no responsivo */
 
+@media screen and (max-width: 768px){
+
+	nav.menu-desktop{
+		display: none;
+	}
+
+	nav.menu-mobile{
+		display: block;
+	}
+
+
+@media screen and (max-width: 480px){
+	header .logo img{
+		width: 200px;
+	}
+}
