@@ -1,0 +1,35 @@
+@import url(./config.css);
+@import url(./responsivo.css);
+
+.topnav{
+	display: flex;
+	justify-content: space-between;  /*alinhamento na horizontal */
+	align-items: center;  /* alinhamento vertical */ 
+	padding: 10px 50px;
+	background-color: beige;
+}
+
+.topnav .icon{
+	display: none;
+}
+
+.topnav nav ul li{
+	display: inline-block;
+	padding: 8px 20px;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.topnav nav ul li a{
+	text-decoration: none;
+	color: var(--primary);
+}
+
+
+.topnav nav ul li a:hover{
+	color: var(--secundary);
+}
+
+
+

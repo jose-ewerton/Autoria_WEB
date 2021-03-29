@@ -1,0 +1,38 @@
+
+
+/*Estilo no responsivo */
+/* quando a tela for 700px */
+@media screen and (max-width: 700px){
+	.topnav{
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+	 
+	.topnav a.icon{
+		position: relative;
+		display: flex;
+		align-items: center;
+		position: absolute;
+		top:25px;
+		right: 10px;
+	}
+
+	.topnav nav ul li{
+		display: none;
+	}
+	
+
+	.topnav.responsive{
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+	}
+
+	.topnav.responsive nav ul li{
+		margin-top: 10px;
+		padding: 10px;
+		display: flex;
+	}
+
+}
