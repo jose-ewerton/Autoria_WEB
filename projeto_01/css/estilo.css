@@ -1,26 +1,54 @@
-*{
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-family:'Montserrat', sans-serif;
-}
-
+@import url(./config.css);
 .clear{
 	clear: both;
 }
 
-.container{
-	max-width: 1400px;
-	width: 100%;
-	margin: 0 auto;
+
+
+.topnav{
+	overflow: hidden;
+	background-color: beige;
+	padding: 20px 16px;
 }
 
-html,body{
-	height: 100%;
+.topnav a{
+	float: left;
+	display: block;	
 }
+
+.topnav nav ul{
+	list-style-type: none;
+}
+
+.topnav nav ul li a{
+	float: right;
+	color: var(--primary);
+	text-align: center;
+	padding: 20px 30px;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase
+}
+
+.topnav nav ul li a:hover{
+	color: var(--secundary);
+}
+
+.topnav .icon{
+	display: none;
+}
+
+
+
+
+
+
+
+
 
 /**Header do site**/
-
+/*
 header{
 	padding:20px 4%;
 }

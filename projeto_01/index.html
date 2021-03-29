@@ -4,34 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Arquivo de fonte Monteserrat-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--Arquivo de estilo.css-->
     <link rel="stylesheet" type="text/css" href="css/principal.css">
-    <title>Projeto 01-</title>
+    <title>Projeto_01</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <div class="logo">
-                <!--<h2>Logo</h2> Logo como texto-->
-                <img src="imagens/logo2.svg" alt="Erro na imagem">
-            </div><!--logo-->
-            <nav class="menu-desktop">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </nav>
-            <nav class="menu-mobile" id="menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Contato</a></li>
-                </ul>
-            </nav>
-            <div class="clear"></div>
-        </div><!--container-->
-    </header><!--header-->
+
+  <header>
+    <div class="topnav" id="myTopnav">
+
+      <a href="#home"><img class="logo" src="imagens/logo2.svg" alt="Imagem não carregada"/></a>
+          
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <img class="menu-mobile" src="../projeto_01/imagens/menu-mobile.png" alt="Imagem não carregada"/>
+          </a>
+        </ul>
+      </nav>
+    </div><!--topnav-->
+  </header>
+
+<div style="padding-left:16px">
+  <h2>Criar slider ou carousel...</h2>
+</div>
+<script src="js/menu-responsivo.js"></script>
+
 </body>
 </html>

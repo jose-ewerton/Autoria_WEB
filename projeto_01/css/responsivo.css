@@ -1,20 +1,33 @@
 
 
 /*Estilo no responsivo */
-
-@media screen and (max-width: 768px){
-
-	nav.menu-desktop{
+/* quando a tela for 700px */
+@media screen and (max-width: 700px){
+	.topnav nav ul li a{
 		display: none;
 	}
-
-	nav.menu-mobile{
+	.topnav a.icon{
+		float:right;
 		display: block;
 	}
 
+	.topnav.responsive{
+		position: relative;
+	}
+	.topnav.responsive .icon{
+		float: right;
+		position: absolute;
+		padding: 20px 16px;
+		top:0;
+		right: 0;
+	}
 
-@media screen and (max-width: 480px){
-	header .logo img{
-		width: 200px;
+	.topnav.responsive a{
+		float: none;
+	}
+	.topnav.responsive nav ul li a{
+		padding: 12px;
+		display: block;
+		text-align: center;
 	}
 }
