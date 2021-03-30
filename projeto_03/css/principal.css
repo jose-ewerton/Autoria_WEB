@@ -1,0 +1,17 @@
+
+@import url(./config.css);
+@import url(./estilo.css);
+@import url(./responsivo.css);
+
+
+/* Reset */
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+}
+

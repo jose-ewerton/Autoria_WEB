@@ -1,0 +1,35 @@
+
+
+/*Estilo no responsivo */
+/* quando a tela for 700px */
+@media screen and (max-width: 700px){
+	.topnav nav ul li{
+		display: none;
+	}
+	.topnav{
+		display: grid;
+		grid-template-rows: 2fr 1fr;
+		justify-content: space-between;
+	}
+
+	.topnav a.icon{
+		position: relative;
+		display: grid;
+		position: absolute;
+		top:25px;
+		right: 10px;
+	}
+
+
+	.topnav.responsive{
+		grid-template-rows: 2fr 1fr;
+		align-items: center;
+	}
+
+	.topnav.responsive nav ul li{
+		display: inline-grid;
+		margin-top: 10px;
+		padding: 10px;
+
+	}
+}

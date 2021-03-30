@@ -1,0 +1,38 @@
+@import url(./config.css);
+@import url(./responsivo.css);
+
+.topnav{
+	display:grid;  /* define o elemento como grid container */
+	grid-template-columns: 2fr 1fr;   /* cria 2 colunas fracionadas */
+	padding: 20px 40px;
+	align-items:center;
+	background-color:beige;
+	/*gap: 80px;  cria um gap entre os elementos do grid */
+
+}
+
+.topnav nav ul{
+	list-style-type: none;
+}
+
+.topnav nav ul li{
+	display: inline-grid;
+	text-align: center;
+	padding: 8px 20px;
+	font-size: 18px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.topnav nav ul li a{
+	text-decoration: none;
+	color: var(--primary);
+}
+
+.topnav nav ul li a:hover{
+	color: var(--secundary);
+}
+
+.topnav .icon{
+	display: none;
+}
